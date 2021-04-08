@@ -1,0 +1,24 @@
+{
+  "name": "storybook-rn-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9009",
+    "web-test": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-web": "^0.15.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-native": "^0.62.10",
+    "babel-loader": "^8.1.0",
+    "typescript": "^3.9.2"
+  }
+}
